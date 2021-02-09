@@ -1,0 +1,290 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11703000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Give URL",
+            "match": {
+              "location": "stepDefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T12:02:54.562Z",
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Entering username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.steps.entering_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7382000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Entering password and click login \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.steps.entering_password_and_click_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the mail \"mohankrishna176@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohankrishna176@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.steps.verify_the_mail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginAndVerify"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9258000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Give URL",
+            "match": {
+              "location": "stepDefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T12:03:13.988Z",
+        "line": 14,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Entering username \"Kvasuki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kvasuki\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.steps.entering_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9434000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Entering password and click login \"vasukik21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasukik21\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.steps.entering_password_and_click_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the mail \"vasukik21@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasukik21@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.steps.verify_the_mail(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginAndVerify"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8280000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Give URL",
+            "match": {
+              "location": "stepDefinition.steps.give_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T12:03:32.935Z",
+        "line": 17,
+        "name": "Compose a mail and send",
+        "description": "",
+        "id": "login-and-compose-and-verify-message;compose-a-mail-and-send",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7741000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Do login \"Kvasuki\" \"vasukik21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kvasuki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"vasukik21\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.steps.do_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15992000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Go to inbox and click on compose",
+            "match": {
+              "location": "stepDefinition.steps.go_to_inbox_and_click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25152000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Type message",
+            "match": {
+              "location": "stepDefinition.steps.type_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56856000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify message",
+            "match": {
+              "location": "stepDefinition.steps.verify_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Compose"
+          }
+        ]
+      }
+    ],
+    "name": "Login and compose and verify message",
+    "description": "",
+    "id": "login-and-compose-and-verify-message",
+    "keyword": "Feature",
+    "uri": "file:Login/Login.feature",
+    "tags": []
+  }
+]
